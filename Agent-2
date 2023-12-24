@@ -1,0 +1,10 @@
+pipeline {
+    agent {node {label "hello-jenkins"}}
+    stages {
+        stage('Example') {
+            steps {
+                echo "This is for practice"
+            }
+        }
+    }
+}
